@@ -1,9 +1,9 @@
 <!-- CSS -->
-<link rel="stylesheet" href="<?php echo site_url('assets/css/custom-tabs.css'); ?>">
-<link rel="stylesheet" href="<?php echo site_url('assets/vendor/dropzone-5.7.0/dist/min/dropzone.min.css'); ?>">
-<link rel="stylesheet" href="<?php echo site_url('assets/css/custom-dropZone-CreateDocument.css'); ?>">
-<link rel="stylesheet" href="<?php echo site_url('assets/css/switch.css'); ?>">
-<link rel="stylesheet" href="<?php echo site_url('assets/css/main/styles.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets/css/custom-tabs.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets/vendor/dropzone-5.7.0/dist/min/dropzone.min.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets/css/custom-dropZone-CreateDocument.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets/css/switch.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets/css/main/styles.css'); ?>">
 <!-- /CSS -->
 
 <div class="container-fluid mt-2">	

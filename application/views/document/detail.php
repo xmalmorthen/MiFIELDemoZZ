@@ -1,6 +1,6 @@
 
 <!-- CSS -->
-<link rel="stylesheet" href="<?php echo site_url('assets/css/custom-tabs.css'); ?>">
+<link rel="stylesheet" href="<?php echo base_url('assets/css/custom-tabs.css'); ?>">
 <!-- /CSS -->
 
 <div class="container-fluid mt-2">
@@ -52,10 +52,10 @@
 </div>
 
 <!-- JS -->
-<script type="text/javascript" src="<?php echo site_url('assets/vendor/plugins/jsSHA-1.5.0/src/sha1.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo site_url('assets/vendor/pdfobject/v2.2.5/pdfobject.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo site_url('assets/vendor/plugins/downloadjs/v4/download.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo site_url('assets/js/document/detail.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/vendor/plugins/jsSHA-1.5.0/src/sha1.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/vendor/pdfobject/v2.2.5/pdfobject.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/vendor/plugins/downloadjs/v4/download.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/js/document/detail.js'); ?>"></script>
 <script>
     const mifielBaseUrl = '<?php echo MIFIEL_URL; ?>';
     const documentoGlobalData = JSON.parse('<?php echo json_encode((array) $documento); ?>');
