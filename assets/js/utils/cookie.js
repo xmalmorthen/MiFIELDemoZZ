@@ -101,5 +101,5 @@ var MyCookie = {
     MyCookie.singleWindow.save();
     $(window).unload(MyCookie.singleWindow.remove);
 } else {
-    window.location.href = base_url + 'Error/singleWindow';
+    window.location.href = site_url + 'Error/singleWindow';
 }*/

@@ -93,7 +93,7 @@ previewNode.parentNode.removeChild(previewNode);
 Dropzone.autoDiscover = false;  
 
 const myDropzone = new Dropzone(".dropzone", {   
-    url: `${base_url}main/postFiles`,
+    url: `${site_url}main/postFiles`,
     autoProcessQueue: false,  		
        maxFilesize: 4,  
     maxFiles: 1,
@@ -387,7 +387,7 @@ function createDocument(signersModel){
 
     $.LoadingOverlay("show", {image:"",fontawesome:"fa fa-cog fa-spin"});
 
-    $.post(base_url + 'main/ajaxCreateDocument', sendData, function(data) {
+    $.post(site_url + 'main/ajaxCreateDocument', sendData, function(data) {
         mifielGlobalDocumentData = data.results.model;
         showWidget(data.results.model.documentId);
     })
@@ -448,7 +448,7 @@ function hideMifielWidget(){
 function getDocummentDetail(documentId){
     return new Promise( (res,rej) => {
 
-        $.get( `${base_url}main/ajaxDocumentDetail/${documentId}`, function(data) {
+        $.get( `${site_url}main/ajaxDocumentDetail/${documentId}`, function(data) {
            res(data) ;
         })
         .fail(function() { 
@@ -473,7 +473,7 @@ function mifielWidgetMessages(msg){
         case 'mifiel.widget.success':
             
             mifielGlobalSignatureDataProc = msg.data;
-            location.href= `${base_url}main/documentDetail/${mifielGlobalDocumentData.documentId}`;
+            location.href= `${site_url}main/documentDetail/${mifielGlobalDocumentData.documentId}`;
 
             break;
         case 'mifiel.widget.error':
