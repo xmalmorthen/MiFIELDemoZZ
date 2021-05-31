@@ -56,7 +56,7 @@ class Main extends CI_Controller {
 			$responseModel['message'] = 'success';
 			$responseModel['data'] = [
 				'full_path' => base64_encode ($fileInfo['full_path']),
-				'url_path' => base64_encode ( site_url( substr($filesPath,1) . '/' . $fileInfo['file_name']) ),
+				'url_path' => base64_encode ( base_url( substr($filesPath,1) . '/' . $fileInfo['file_name']) ),
 				'file_info' => [
 					'name' => base64_encode ($fileInfo['orig_name']),
 					'crypName' => base64_encode ($fileInfo['file_name']),
