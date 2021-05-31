@@ -1,0 +1,5 @@
+.dropzone_custom {
+    min-height: 11rem!important;
+    border: 4px dotted #ddd!important;
+    background: transparent!important;
+}

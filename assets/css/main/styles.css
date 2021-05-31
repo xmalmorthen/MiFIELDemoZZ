@@ -1,0 +1,31 @@
+.pdfobject-container { 
+    height: 30rem; 
+    border: .5rem solid rgba(0,0,0,.1); 
+}
+
+#pdfPreview{
+    min-height: 100vh; 
+}
+
+input.numberStyle {
+    max-width: 3rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    font-size: 1rem;
+}
+
+form.signers{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+hr.separate {
+    border-top: 1px solid rgb(255 255 255 / 48%);
+}

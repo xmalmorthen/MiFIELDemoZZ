@@ -1,0 +1,17 @@
+.nav-tabs .nav-item{
+    font-size: 1.5em;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active,
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active
+{
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    
+}
+
+.nav-tabs .nav-link,
+.nav-pills .nav-link {
+    color: white;
+}
